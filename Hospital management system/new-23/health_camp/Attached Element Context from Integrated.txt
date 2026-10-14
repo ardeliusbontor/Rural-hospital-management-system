@@ -1,0 +1,118 @@
+Attached Element Context from Integrated Browser
+
+Element: body.login-page
+
+URL: http://localhost/health_camp/login.php
+
+HTML Path: body.login-page
+
+Outer HTML:
+```html
+<body class="login-page">
+
+    <div class="login-box">
+
+        <div class="logo">
+            <i class="fas fa-hospital-alt"></i>
+            <h2>Health Camp</h2>
+            <p>Rural Health Camp Management System</p>
+        </div>
+
+        
+        <form method="POST" action="">
+
+            <div class="mb-3">
+                <label class="form-label">Username</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    <input type="text" name="username" class="form-control" placeholder="Enter username" required="">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Password</label>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                    <input type="password" name="password" class="form-control" placeholder="Enter password" required="">
+                </div>
+            </div>
+
+            <button type="submit" class="btn-login">r
+                <i class="fas fa-sign-in-alt"></i> Login
+            </button>
+
+        </form>
+
+        <p class="text-center mt-3" style="font-size: 12px; color: #aaa;">
+            Default: admin / admin123 <br>
+            Default: doctor1 / doctor123 
+        </p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+```
+
+Dimensions:
+- top: 0px
+- left: 0px
+- width: 882px
+- height: 680px
+
+CSS:
+```css
+*, ::after, ::before { box-sizing:border-box }
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+body { margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent }
+body { font-family: 'Poppins', sans-serif;
+    background-color: #f4f9f6;
+    color: var(--text-dark); }
+.login-page { min-height: 100vh;
+    background: linear-gradient(135deg, #1a7a4a 0%, #27ae60 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+/* Resolved values */
+margin: 0px;
+padding: 0px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+align-items: center;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: linear-gradient(135deg, rgb(26, 122, 74) 0%, rgb(39, 174, 96) 100%);
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+box-sizing: border-box;
+color: rgb(44, 62, 80);
+display: flex;
+font-family: Poppins, sans-serif;
+font-size: 16px;
+font-weight: 400;
+height: 680px;
+justify-content: center;
+line-height: 24px;
+min-height: 680px;
+text-align: start;
+text-size-adjust: 100%;
+width: 882.4px;
+
+/* CSS variables */
+--bs-body-font-weight: 400;
+--bs-body-line-height: 1.5;
+--bs-body-font-size: 1rem;
+--bs-body-font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--bs-body-bg: #fff;
+--text-dark: #2c3e50;
+--bs-body-color: #212529;
+```
